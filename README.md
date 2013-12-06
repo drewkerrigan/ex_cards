@@ -1,4 +1,3 @@
-ex_cards
-========
+# ExCards
 
-A Cards Library in Elixir
+** TODO: Add description **
