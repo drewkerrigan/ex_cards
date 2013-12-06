@@ -1,3 +1,5 @@
-# ExCards
+#ExCards
 
-** TODO: Add description **
+A simple card library in Elixir. Currently only implements blackjack scoring.
+
+
