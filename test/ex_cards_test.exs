@@ -1,8 +1,6 @@
 defmodule ExCardsTest do
   use ExUnit.Case
 
-  #-export([deck/0,total/1,is_bust/1,is_blackjack/1,compare/2]).
-
   test "shuffle deck" do
     deck1 = ExCards.deck()
     deck2 = ExCards.deck()
