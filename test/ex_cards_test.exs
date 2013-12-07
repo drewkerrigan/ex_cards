@@ -9,14 +9,11 @@ defmodule ExCardsTest do
   end
 
   test "deal hand" do
-    {player, deck} = Blackjack.deck
-    |> Blackjack.deal(2)
+    {player, deck} = Blackjack.deck |> Blackjack.deal(2)
 
-    {dealer, deck2} = deck
-    |> Blackjack.deal(2)
+    {dealer, deck2} = deck |> Blackjack.deal(2)
 
-    {newplayer, deck3} = deck2
-    |> Blackjack.hit(player)
+    {newplayer, deck3} = deck2 |> Blackjack.hit(player)
 
     IO.puts "Player after hit"
     IO.inspect newplayer
